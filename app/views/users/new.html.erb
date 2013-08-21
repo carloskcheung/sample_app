@@ -5,7 +5,7 @@
   <div class="span6 offset3">
     <%= form_for(@user) do |f| %>
     	<%= render 'shared/error_messages' %>
-
+      <!-- refactor this code with fields partial and figure out how to make spec past-->
       <%= f.label :name %>
       <%= f.text_field :name %>
 
